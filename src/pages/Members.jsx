@@ -5,41 +5,115 @@ const members = [
   {
     name: "BBakk. art. Herbert Bauer",
     title: "Kapellmeister",
-    section: ["Vorstand"],
+    section: ["Vorstand", "Orchesterteil 4"],
     instrument: "Klarinette, Schlagwerk",
-    info: `Studierte Klarinette, Schlagwerk und Instrumentalpädagogik an der Musikhochschule Graz, absolvierte den Kapellmeisterlehrgang und ist seit 1994 Dirigent der Werkskapelle Zeltweg. Verleihung des akademischen Grades "Bakkalaureus der Künste" im Jahr 2007.`,
+    info: `absolvierte die Höhere Technische Lehranstalt für Elektrotechnik in Kapfenberg und studierte Klarinette, Schlagwerk und Instrumentalpädagogik an der Musikhochschule in Graz, wo er auch den Kapellmeisterlehrgang abschloss. 1983 bis 1988 absolvierte er den Präsenzdienst bei der Militärmusik Steiermark. Seit 1994 dirigiert er die Werkskapelle Zeltweg. Verleihung des zweifachen akademischen Grades "Bakkalaureus der Künste" im Jahr 2007.`,
     image: "/images/members/HerbertBauer.jpg",
     vorstand: true,
-    leistungsabzeichen: "Goldenes Leistungsabzeichen 2010",
-    ehrenabzeichen: "Ehrenabzeichen für 25 Jahre Mitgliedschaft",
-    zusatzinfos: "Seit 1994 Kapellmeister der Werkskapelle Zeltweg.",
+    leistungsabzeichen: [
+      "Jungmusiker-Leistungsabzeichen in Bronze",
+      "Jungmusiker-Leistungsabzeichen in Silber",
+      "Jungmusiker-Leistungsabzeichen in Gold",
+    ],
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrennadel in Silber",
+      "Ehrenzeichen 10 Jahre in Bronze",
+      "Ehrenzeichen 15 Jahre in Silber",
+      "Ehrenzeichen 25 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 30 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 40 Jahre in Gold mit Miniatur",
+      "Verdienstkreuz in Bronze am Band & Miniatur",
+      "Verdienstkreuz in Gold am Band & Miniatur",
+      "Verdienstkreuz in Gold mit Stern & Miniatur",
+      "Verdienstkreuz in Silber am Band & Miniatur",
+      "Verdienstkreuz in Silber mit Stern & Miniatur",
+    ],
+    eintrittsdatum: "01.01.1977",
   },
   {
     name: "Johann Mayer",
     title: "Stellvertretender Kassier",
     section: ["Vorstand"],
-    instrument: "–",
-    info: `War Werkmeister bei VOEST-ALPINE Bergtechnik GmbH. Über 40 Jahre geschäftsführender Obmann der Werkskapelle Zeltweg.`,
+    instrument: "",
+    info: `war als Werkmeister bei der ehemaligen VOEST-ALPINE Bergtechnik GmbH (heute Sandvik Mining and Construction G.m.b.H.) für die Endmontage der Alpine Miner zuständig. Er bekleidete über 40 Jahre die Funktion des geschäftsführenden Obmanns der Werkskapelle Zeltweg.`,
     image: "/images/members/JohannMayer.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrennadel in Silber",
+      "Ehrenzeichen 10 Jahre in Bronze",
+      "Ehrenzeichen 15 Jahre in Silber mit Miniatur",
+      "Ehrenzeichen 15 Jahre in Silber",
+      "Ehrenzeichen 25 Jahre in Gold",
+      "Ehrenzeichen 25 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 30 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 35 Jahre in Gold",
+      "Ehrenzeichen 40 Jahre in Gold mit Miniatur",
+      "Ehrenzeichen 50 Jahre in Gold",
+      "ÖBV-Verdienstmedaille in Bronze",
+      "ÖBV-Verdienstmedaille in Gold",
+      "Verdienstkreuz in Bronze am Band & Miniatur",
+      "Verdienstkreuz in Gold am Band & Miniatur",
+      "Verdienstkreuz in Gold mit Stern & Miniatur",
+      "Verdienstkreuz in Silber am Band & Miniatur",
+    ],
+    eintrittsdatum: "01.01.1964",
   },
   {
     name: "Dipl.-Ing. Heinz Gach",
     title: "Ehrenobmann",
     section: ["Vorstand"],
-    instrument: "–",
-    info: `Von 1978 bis 2017 Obmann der Werkskapelle Zeltweg. Seit Jänner 2017 Ehrenobmann.`,
+    instrument: "",
+    info: `war von 1978 bis 2017 Obmann der Werkskapelle Zeltweg. Seit Jänner 2017 ist er Ehrenobmann.`,
     image: "/images/members/HeinzGach.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrennadel in Silber",
+      "Ehrenzeichen 10 Jahre in Bronze",
+      "Ehrenzeichen 15 Jahre in Silber mit Miniatur",
+      "Ehrenzeichen 15 Jahre in Silber",
+      "Ehrenzeichen 25 Jahre in Gold",
+      "Ehrenzeichen 25 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 30 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 35 Jahre in Gold",
+      "Ehrenzeichen 40 Jahre in Gold mit Miniatur",
+      "Ehrenzeichen 50 Jahre in Gold",
+      "ÖBV-Verdienstmedaille in Bronze",
+      "ÖBV-Verdienstmedaille in Gold",
+      "Verdienstkreuz in Bronze am Band & Miniatur",
+      "Verdienstkreuz in Gold am Band & Miniatur",
+      "Verdienstkreuz in Gold mit Stern & Miniatur",
+      "Verdienstkreuz in Silber am Band & Miniatur",
+    ],
+    eintrittsdatum: "01.01.1963",
   },
   {
     name: "Prof. Willibald Kremser",
     title: "Ehrenkapellmeister",
     section: ["Vorstand"],
-    instrument: "–",
-    info: `Von 1964 bis 1994 Kapellmeister der Werkskapelle Zeltweg. Seit Dezember 1994 Ehrenkapellmeister.`,
+    instrument: "",
+    info: `war von 1964 bis 1994 Kapellmeister der Werkskapelle Zeltweg. Seit Dezember 1994 ist er Ehrenkapellmeister.`,
     image: "/images/members/WillibaldKremser.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrenzeichen 15 Jahre in Silber",
+      "Ehrenzeichen 25 Jahre in Gold",
+      "Ehrenzeichen 40 Jahre in Gold mit Miniatur",
+      "Ehrenzeichen 50 Jahre in Gold",
+      "Ehrenzeichen 60 Jahre in Gold mit Miniatur",
+      "Ehrenzeichen 70 Jahre in Gold mit Miniatur",
+      "ÖBV-Verdienstmedaille in Bronze",
+      "ÖBV-Verdienstmedaille in Silber",
+      "Verdienstkreuz in Bronze am Band & Miniatur",
+      "Verdienstkreuz in Silber am Band & Miniatur",
+    ],
+    eintrittsdatum: "01.01.1946",
   },
   {
     name: "Brigitte Stengg",
@@ -242,9 +316,21 @@ const members = [
     name: "Ulrich Hollerer",
     section: ["Orchesterteil 2"],
     instrument: "Saxophon",
-    info: "Ulrich bringt mit seinem Saxophonspiel Farbe ins Orchester.",
+    info: "war Lehrer an der Musikschule Zeltweg und unterrichtete bis zu seiner Pensionierung die Instrumente Klarinette, Saxophon und Fagott.",
     image: "/images/members/UlrichHollerer.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrennadel in Silber",
+      "Ehrenzeichen 15 Jahre in Silber",
+      "Ehrenzeichen 25 Jahre in Gold",
+      "Ehrenzeichen 30 Jahre in Silber-Gold mit Miniatur",
+      "Ehrenzeichen 40 Jahre in Gold mit Miniatur",
+      "Verdienstkreuz in Bronze am Band & Miniatur",
+      "Verdienstkreuz in Silber am Band & Miniatur",
+    ],
+    eintrittsdatum: "01.01.1974",
   },
   {
     name: "Gabriel Reiter",
@@ -271,9 +357,18 @@ const members = [
     name: "DI Thomas Groß",
     section: ["Orchesterteil 2"],
     instrument: "Tenorsaxophon",
-    info: "Thomas bringt Tiefe und Klangvolumen ins Saxophonregister.",
+    info: "ist Berechnungsingenieur im Bereich Strukturfestigkeit bei der Sandvik Mining and Construction G.m.b.H. Er übernimmt seit 01.07.2024 die Agenden des Kassiers und kümmert sich unter anderem um alle Fragen der Finanzierung der Werkskapelle Zeltweg.",
     image: "/images/members/ThomasGross.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrennadel in Silber",
+      "Ehrenzeichen 10 Jahre in Bronze mit Miniatur",
+      "Ehrenzeichen 15 Jahre in Silber mit Miniatur",
+      "Ehrenzeichen 25 Jahre in Silber-Gold mit Miniatur",
+    ],
+    eintrittsdatum: "01.02.2022",
   },
   {
     name: "Mag. Tanja Gugl",
@@ -314,9 +409,15 @@ const members = [
     name: "DI(FH) Wolfgang Stiegmaier MBA",
     section: ["Orchesterteil 2"],
     instrument: "Flügelhorn",
-    info: "Wolfgang vereint Technik und Musikalität auf dem Flügelhorn.",
+    info: "ist seit Jänner 2017 stellvertretender Obmann der Werkskapelle Zeltweg. Er studierte Bioinformatik und Medizinische Informationstechnologie am Technikum Fachhochschule Kärnten und ist als Vertriebsleiter beim Unternehmen 4a manufacturing GmbH (Teil der 4a Gruppe) in Traboch tätig.",
     image: "/images/members/WolfgangStiegmaier.jpg",
     vorstand: true,
+    leistungsabzeichen: "",
+    ehrenabzeichen: [
+      "Ehrenzeichen 10 Jahre in Bronze mit Miniatur",
+      "Ehrenzeichen 15 Jahre in Silber mit Miniatur",
+    ],
+    eintrittsdatum: "01.01.1994",
   },
   {
     name: "Ing. Christoph Gruber-Veit",
@@ -329,9 +430,18 @@ const members = [
     name: "Ing. Wolfgang Stiegmaier sen.",
     section: ["Orchesterteil 2"],
     instrument: "Flügelhorn",
-    info: "Wolfgang sen. bringt jahrzehntelange Erfahrung ins Ensemble.",
+    info: "absolvierte die Höhere Technische Lehranstalt für Elektrotechnik in Kapfenberg und arbeitete bei der SIEMENS in Wien sowie bei den Österreichischen Bundesbahnen als Leiter der Produktion für Steiermark, Kärnten und Osttirol. Seit seiner Pensionierung ist er als Versicherungsberater für die Österreichische Beamten Versicherung tätig, am 01. Jänner 2023 übernahm er die Funktion des Obmannes der Werkskapelle Zeltweg.",
     image: "/images/members/WolfgangStiegmaierSen.jpg",
     vorstand: true,
+    leistungsabzeichen: ["Jungmusiker-Leistungsabzeichen in Bronze"],
+    ehrenabzeichen: [
+      "Ehrennadel in Gold",
+      "Ehrenzeichen 10 Jahre in Bronze mit Miniatur",
+      "Ehrenzeichen 15 Jahre in Silber mit Miniatur",
+      "Ehrenzeichen 25 Jahre in Gold",
+      "Verdienstkreuz in Bronze",
+    ],
+    eintrittsdatum: "01.01.1972",
   },
   {
     name: "Helmut Kranz",
@@ -535,6 +645,10 @@ const FILTER_OPTIONS = [
   "Vorstand",
 ];
 
+function getVisibleSections(sectionArray) {
+  return sectionArray.filter((s) => !s.startsWith("Orchesterteil"));
+}
+
 function MemberModal({ member, onClose }) {
   if (!member) return null;
 
@@ -549,12 +663,7 @@ function MemberModal({ member, onClose }) {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="
-         bg-white rounded-lg p-6 relative
-         w-full max-w-3xl max-h-[90vh] overflow-auto
-         sm:max-w-xl sm:max-h-[80vh]
-         md:max-w-3xl md:max-h-[90vh]
-         "
+        className="bg-white rounded-lg p-6 relative w-full max-w-3xl max-h-[90vh] overflow-auto sm:max-w-xl sm:max-h-[80vh] md:max-w-3xl md:max-h-[90vh]"
       >
         <button
           onClick={onClose}
@@ -566,33 +675,47 @@ function MemberModal({ member, onClose }) {
         <img
           src={member.image}
           alt={member.name}
-          className="
-           w-full object-contain rounded-md mb-5
-           max-h-[300px] sm:max-h-[400px] md:max-h-[400px]
-         "
+          className="w-full object-contain rounded-md mb-5 max-h-[300px] sm:max-h-[400px] md:max-h-[400px]"
         />
         <h2 id="modal-title" className="text-3xl font-bold mb-2">
           {member.name} — {member.title}
         </h2>
         <p className="mb-4 text-gray-700">{member.info}</p>
-        <p>
-          <strong>Instrument:</strong> {member.instrument}
-        </p>
-        <p>
-          <strong>Orchesterteile:</strong> {member.section.join(", ")}
-        </p>
-        {member.leistungsabzeichen && (
-          <p>
-            <strong>Leistungsabzeichen:</strong> {member.leistungsabzeichen}
+        {member.instrument && (
+          <p className="mt-4">
+            <strong>Instrument:</strong> {member.instrument}
           </p>
         )}
-        {member.ehrenabzeichen && (
-          <p>
-            <strong>Ehrenabzeichen:</strong> {member.ehrenabzeichen}
+        {getVisibleSections(member.section).length > 0 && (
+          <p className="mt-4">
+            <strong>Sektionen:</strong>{" "}
+            {getVisibleSections(member.section).join(", ")}
           </p>
         )}
-        {member.zusatzinfos && (
-          <p className="mt-4 italic text-gray-600">{member.zusatzinfos}</p>
+        {member.leistungsabzeichen?.length > 0 && (
+          <div className="mt-4">
+            <strong>Leistungsabzeichen:</strong>
+            <ul className="list-disc list-inside mt-1">
+              {member.leistungsabzeichen.map((abzeichen, idx) => (
+                <li key={idx}>{abzeichen}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {member.ehrenabzeichen?.length > 0 && (
+          <div className="mt-4">
+            <strong>Ehrenabzeichen:</strong>
+            <ul className="list-disc list-inside mt-1">
+              {member.ehrenabzeichen.map((abzeichen, idx) => (
+                <li key={idx}>{abzeichen}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {member.eintrittsdatum && (
+          <p className="mt-4">
+            <strong>Eintrittsdatum:</strong> {member.eintrittsdatum}
+          </p>
         )}
       </div>
     </div>
@@ -617,32 +740,18 @@ export default function MembersPage() {
         </h1>
 
         {/* Filter Buttons */}
-        <div
-          className="
-    mb-10
-    flex
-    flex-wrap
-    justify-center
-    gap-3
-    px-4
-  "
-        >
+        <div className="mb-10 flex flex-wrap justify-center gap-3 px-4">
           {FILTER_OPTIONS.map((opt) => (
             <button
               key={opt}
               onClick={() => setSelectedFilter(opt)}
-              className={`
-        rounded-lg font-semibold transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-gold
-        ${
-          selectedFilter === opt
-            ? "bg-gold text-black shadow-lg"
-            : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-        }
-        px-3 py-2 text-sm
-        sm:px-6 sm:py-3 sm:text-base
-        cursor-pointer
-        select-none
-      `}
+              className={`rounded-lg font-semibold transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-gold
+              ${
+                selectedFilter === opt
+                  ? "bg-gold text-black shadow-lg"
+                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+              }
+              px-3 py-2 text-sm sm:px-6 sm:py-3 sm:text-base cursor-pointer select-none`}
               aria-pressed={selectedFilter === opt}
             >
               {opt}
@@ -682,9 +791,12 @@ export default function MembersPage() {
                     Vorstand
                   </p>
                 ) : (
-                  <p className="mt-3 text-gray-600 text-sm">
-                    <strong>Orchesterteile:</strong> {section.join(", ")}
-                  </p>
+                  getVisibleSections(section).length > 0 && (
+                    <p className="mt-3 text-gray-600 text-sm">
+                      <strong>Sektionen:</strong>{" "}
+                      {getVisibleSections(section).join(", ")}
+                    </p>
+                  )
                 )}
               </div>
             )
